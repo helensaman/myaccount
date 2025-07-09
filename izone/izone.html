@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Profiles</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    @media (max-width: 600px) {
+  .social-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: white;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      background: linear-gradient(90deg, #00c3ff, #ffff1c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .social-container {
+      display: flex;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .social-icon {
+      width: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .social-icon i {
+      font-size: 28px;
+      color: white;
+      transition: transform 0.3s ease;
+    }
+
+    .social-icon:hover {
+      transform: scale(1.2);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .facebook { background-color: #1877f2; }
+    .instagram { background-color: #e4405f; }
+    .tiktok { background-color: #000000; }
+    .telegram { background-color: #229ED9; }
+    .whatsapp { background-color: #25D366; }
+
+    .social-icon:hover i {
+      transform: rotate(10deg);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>پەیوەندیم پێوە بکە لە سۆشیال میدیا</h1>
+
+  <div class="social-container">
+    <a href="https://www.facebook.com/share/1C9kr92VQs/" class="social-icon facebook" target="_blank">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/i_zone_2025?igsh=OGY5bHk5eW41emxy" class="social-icon instagram" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.tiktok.com/@izone273?_t=ZS-8xslA5eSpww&_r=1" class="social-icon tiktok" target="_blank">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://t.me/I_zone1" class="social-icon telegram" target="_blank">
+      <i class="fab fa-telegram-plane"></i>
+    </a>
+    <a href=" https://wa.me/9647507817574" class="social-icon whatsapp" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+</body>
+</html>
